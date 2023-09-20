@@ -1,0 +1,72 @@
+{
+    "main": "main.py",
+    "requirements": [
+        "tidalapi"
+    ],
+    "id": "tidal",
+    "name": "Tidal",
+    "description": "TIDAL music streaming service",
+    "version": "1.0.0",
+    "maxThreads": 1,
+    "supportedVersion": 41,
+    "author": "marekkon5",
+    "customOptions": {
+        "options": [
+            {
+                "id": "login",
+                "label": "Login using browser",
+                "tooltip": "Use this to login and fill and automatically fill the fields below",
+                "value": {
+                    "type": "button"
+                }
+            },
+            {
+                "id": "check",
+                "label": "Check login",
+                "tooltip": "Click this after you've logged in",
+                "value": {
+                    "type": "button"
+                }
+            },
+            {
+                "id": "token_type",
+                "label": "Token Type",
+                "value": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            {
+                "id": "access_token",
+                "label": "Access Token",
+                "value": {
+                    "type": "string",
+                    "value": "",
+                    "hidden": true
+                }
+            },
+            {
+                "id": "refresh_token",
+                "label": "Refresh Token",
+                "value": {
+                    "type": "string",
+                    "value": "",
+                    "hidden": true
+                }
+            },
+            {
+                "id": "expiry_time",
+                "label": "Expiry Time",
+                "value": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        ]
+    },
+    "supportedTags": [
+        "title", "url", "duration", "trackNumber", "artist", "album", "releaseId",
+        "trackId", "isrc", "version", "explicit", "albumArt"
+    ],
+    "requiresAuth": true
+}

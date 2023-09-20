@@ -1,0 +1,10 @@
+{
+    "id": "apple_music",
+    "name": "Apple Music",
+    "description": "Incl. album art up to 3000px, lyrics and more. Requires token",
+    "version": "1.0.0",
+    "maxThreads": 4,
+    "requiresAuth": true,
+    "supportedVersion": 41,
+    "author": "marekkon5"
+}
