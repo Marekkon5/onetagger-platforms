@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "id": "tidal",
+        "name": "Tidal",
+        "description": "TIDAL music streaming service",
+        "maxThreads": 1,
+        "requiresAuth": true,
+        "language": "python",
+        "author": "marekkon5",
+        "versions": {
+            "1.0.0": 41
+        },
+        "version": "1.0.0"
+    },
+    {
+        "id": "apple_music",
+        "name": "Apple Music",
+        "description": "Incl. album art up to 3000px, lyrics and more. Requires token",
+        "maxThreads": 4,
+        "requiresAuth": true,
+        "language": "rust",
+        "author": "marekkon5",
+        "versions": {
+            "1.0.0": 41
+        },
+        "version": "1.0.0"
+    }
+]
