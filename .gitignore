@@ -1,0 +1,8 @@
+platforms/**/.python
+platforms/**/.version
+platforms/**/Cargo.lock
+platforms/**/target
+__pycache__
+**/__pycache__
+*.zip
+dist/
